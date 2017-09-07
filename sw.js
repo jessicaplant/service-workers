@@ -4,6 +4,9 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
     '/service-workers',
+    '/service-workers/index.html',
+    '/service-workers/app.js',
+    '/service-workers/sw.js',
     'img/pic.png'
 ];
 
