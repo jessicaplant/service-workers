@@ -3,8 +3,8 @@
  */
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-    '/',
-    '/img/pic.png'
+    // '/',
+    'img/pic.png'
 ];
 
 self.addEventListener('install', function(event) {
