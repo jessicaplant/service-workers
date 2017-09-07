@@ -21,5 +21,6 @@ self.addEventListener('install', function(event) {
     );
 });
 self.addEventListener('fetch', function(event) {
+    console.log('Cache request: ' + event.request);
     event.respondWith(caches.match(event.request));
 });
